@@ -1,0 +1,216 @@
+body,html{
+	background-color: #eee; 
+	font-family: 'Alata', sans-serif;
+  height: 100%;
+}
+h1,h2,h3,h4,h5,h6,p{
+  font-family: 'Alata', sans-serif;
+}
+a{
+  font-family: 'Alata', sans-serif;
+  color: #333;
+}
+a:hover{
+  color:  #ffffff;
+  text-decoration: none !important;
+}
+
+
+.container{
+ height: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: -105px -115px;
+
+}
+.login-content{
+	float: right;
+	 flex-direction: column;
+     height: 100%;
+     padding-top: 7%;
+	
+}
+.login-form{
+    height: 25%;
+    background-color: #000;
+    border-radius: 30px;
+    padding: 5%;
+}
+.login-form h4{
+	text-align: center;
+	color: #ffffff ;
+	font-weight: 600;
+      margin-bottom: 22px;
+}
+.login-form .forgot-password{
+	text-align: center;
+	color: #ffffff ;
+}
+.login-form .forgot-password a{
+	
+	color: #ffffff !important;
+}
+.login-form .create-account{
+	text-align: center;
+	color: #ffffff !important;
+}
+.login-form .create-account a{
+	
+	color: #ffffff !important;
+}
+.login-form input{
+	border-radius: 20px !important;
+	text-align: center;
+	border: none  !important;
+	background-image: linear-gradient(-90deg, #ffffff, #ffffff);
+
+  font-weight: bold;
+}
+
+
+.login-form input:focus{
+	outline: none !important;
+	box-shadow: none !important;
+	border: none  !important;
+
+}
+
+.login-form .login-btn{
+    max-width:fit-content;
+    margin: 0 auto;
+    padding-top: 5%; 
+}
+.login-form .glogin-btn{
+	padding-top: 0% !important;
+    max-width:fit-content;
+    margin: 0 auto;
+    color:#333;
+}
+.login-form .glogin-btn .btn{
+    background: #ffffff;
+    color:#333;
+    border-radius: 30px;
+} 
+.glogin-btn img{
+  margin-bottom:4px; 
+  margin-right:5px
+}  
+.login-form .login-btn .btn{
+	font-weight: 600;
+    color:#000;
+}
+.login-btn input{
+    background-image:linear-gradient(-90deg, #f95656, #f95656);
+}
+
+.forgot-password a{
+    font-weight: bolder;
+}
+.forgot-password a:hover{
+    color:  #f95656 !important;
+}
+.create-account a{
+    font-weight:bolder;
+}
+.create-account a:hover{
+    color:  #f95656 !important;
+}
+.TagLine{
+    padding-top: 7%;
+    width:50% ;
+    float:left;
+}
+.TagLine img{
+    height: 500px;
+}
+
+.form-group{
+  padding-top: 5%;
+  width: fit-content;
+  margin: 0 auto;
+}
+.forgot-password{
+  margin:15px auto ;
+}
+.create-account{
+  margin:15px auto ;
+}
+/***************************** media query 1366px **********/
+@media only screen and (max-width: 1366px) {
+  .container{
+  	    background-position: -155px -155px;
+  	    
+  	    margin-left: 0px !important;
+  }
+  
+}
+/***************************** media query 1294px **********/
+@media only screen and (max-width: 1294px) {
+  .container{
+  	    background-position: -115px -115px;
+  	    
+  	    margin-left: 0px !important;
+  }
+  
+}
+/***************************** media query 1024px **********/
+@media only screen and (max-width: 1024px) {
+  .container{
+  	    background-position: -97px -97px;
+  	    background-size: unset;
+  	    margin-left: 0px !important;
+  }
+}
+/***************************** media query 815px **********/
+@media only screen and (max-width: 992px) {
+  .container{
+  	    background-image: none;
+          height: 100%;
+  }
+.login-content{
+  align-items: center;
+}
+.login-form{
+  margin: 20px auto !important;
+}
+.login-form .login-btn{
+    margin-left: 40%;
+  }
+  .login-form .glogin-btn{
+	margin-top: 1rem;
+    max-width:fit-content;
+  }
+  .TagLine{
+    display:none;
+}
+
+}
+/***************************** media query 414px **********/
+/* mobile breakpoint start */
+@media screen and (max-width: 600px) {
+  /* navbar css for mobile end */
+  .login-content{
+    padding-right:5%;
+  }
+
+  .login-form{
+  	padding:25% !important;
+
+
+  }
+  .form-group{
+    width: fit-content;
+    margin: 0 auto;
+  }
+  .login-form .glogin-btn{
+	margin-top: 1rem;
+    max-width:fit-content;
+  } 
+  .login-form .login-btn{
+    margin: 0 auto;
+  }
+  .TagLine{
+    display:none;
+}
+
+}
